@@ -6,18 +6,14 @@
   "scripts": {
     "test": "jest"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
+  "author": {
+    "name": "José Eduardo Rodrigues Pinto (Jerp86)",
+    "email": "jerp4@hotmail.com",
+    "url": "https://www.linkedin.com/in/jerp/"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+  "repository": {
+    "url": "https://github.com/jerp86/clean-node-api.git"
   },
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "husky": "^4.0.0-beta.5",
